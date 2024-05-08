@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Parallax Image Sections */
+.pimg {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.pimg1 {
+    background-image: url(pexels-pixabay-235721.jpg); /* Replace with actual image path */
+}
+
+.pimg2 {
+    background-image: url(n1.jpg); /* Replace with actual image path */
+}
+
+.pimg3 {
+    background-image: url(n2.jpg); /* Replace with actual image path */
+}
+
+/* Parallax Text */
+.ptext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.textbg {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Regular Sections */
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section_light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section_dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

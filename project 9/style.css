@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+html, body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+/* Header Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Center Navigation Styles */
+.center-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Search Styles */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    border: none;
+    background-color: transparent;
+}
+
+/* Mic Styles */
+.mic {
+    padding: 10px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    margin-left: 10px;
+}
+
+.mic img {
+    width: 20px;
+    height: auto;
+}
+
+/* Side Navigation Styles */
+.side-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.side-nav i img {
+    width: 24px;
+    height: auto;
+}
+
+/* Tag Styles */
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+/* Aside Styles */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.side-icon i img {
+    width: 24px;
+    height: auto;
+}
+
+.side-icon p {
+    font-size: 14px;
+}
+
+/* Main Container Styles */
+.main-container {
+    flex: 1;
+    padding: 0 20px;
+}
+
+/* Main Styles */
+main {
+    min-height: calc(100vh - 64px);
+    padding: 20px 0;
+}
+
+/* Card Styles */
+/* Card Styles */
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.card img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 150px; /* Set a maximum height for the thumbnail */
+}
+
+.avatar-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.channel-name {
+    font-weight: bold;
+}
+
+.dots img {
+    width: 20px;
+    height: auto;
+}
+.logo{
+
+}
